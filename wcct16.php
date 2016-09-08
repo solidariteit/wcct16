@@ -14,7 +14,7 @@ Text Domain: wcct16
 namespace WCCT;
 
 function wcct_save_option( $name, $value ){
-	update_option( $name, $value );
+	update_option( $name, $v
 }
 
 function wcct_get_option( $name ){
